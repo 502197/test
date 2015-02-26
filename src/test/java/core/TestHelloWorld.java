@@ -10,7 +10,7 @@ public class TestHelloWorld {
 	@Test
 	public void test() {
 		assertTrue("Strings are equal", "Hello World!".equals(sayHello()));
-		assertFalse("Strings are equal", "hello World!".equals(sayHello()));
+		assertFalse("Strings are not equal", "hello World!".equals(sayHello()));
 	}
 
 }
